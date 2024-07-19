@@ -1,0 +1,179 @@
+/* CSS file (main.css) */
+
+
+/* General Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* Header Styles */
+
+.header-area-start {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tp-header-top-area {
+    background: #5C4FD1;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.tp-header-top-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tp-header-top-info ul li {
+    margin-right: 20px;
+}
+
+.tp-header-top-info ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.tp-header-top-info ul li a:hover {
+    text-decoration: underline;
+}
+
+.tp-header-social-icon span {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.tp-header-social-icon a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.header-bottom-area {
+    background: #fff;
+    padding: 15px 0;
+    position: relative;
+    z-index: 10;
+}
+
+.tp-logo img {
+    max-width: 120px;
+}
+
+.tp-main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tp-main-menu ul li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.tp-main-menu ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.tp-main-menu ul li a:hover {
+    color: #5C4FD1;
+}
+
+.tp-header-right-action ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.tp-header-right-action ul li {
+    margin-left: 20px;
+}
+
+.tp-header-right-action .search-click {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tp-header-right-action .tp-header-cart button {
+    background: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.tp-header-right-action .tp-header-cart .cartmini-item-count {
+    background: #ff5a5a;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    top: -5px;
+    right: -10px;
+}
+
+.tp-header-right-action .tp-header-btn a {
+    background: #ffd700;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.tp-header-right-action .tp-header-btn a:hover {
+    background: #ffbf00;
+}
+
+.tp-header-tel-box {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.tp-header-tel-icon span {
+    font-size: 18px;
+    color: #5C4FD1;
+    margin-right: 10px;
+}
+
+.tp-header-tel-text span {
+    font-size: 14px;
+    color: #777;
+}
+
+.tp-header-tel-text a {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.tp-header-tel-text a:hover {
+    color: #5C4FD1;
+}
+
+.tp-header-hamburger-toogle span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #333;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+}

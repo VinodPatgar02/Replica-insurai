@@ -1,6 +1,11 @@
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+// src/pages/_app.tsx
+import React from 'react';
+import { AppProps } from 'next/app';
+import '../styles/globals.css';
+import '../styles/font-awesome-free.css';
 
-export default function App({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
+
+export default MyApp;
